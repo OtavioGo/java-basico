@@ -47,5 +47,26 @@ public class TiposRepeticao {
 
        System.out.println("A maior nota foi: " + maior);
        System.out.println("A média é: " + (media/5));
+       //===============================================
+       //Par e Impar
+       int numero;
+       int quantNumeros = 0, quantPares = 0, quantImpares = 0;
+
+       System.out.println("Quantidade de numeros: ");
+       numero = scan.nextInt();
+
+       int contador = 0;
+       do {
+            System.out.println("Número: ");
+            numero = scan.nextInt();
+
+            if(numero % 2 == 0) quantPares++;
+            else quantImpares++;
+
+            contador++;
+       }while(contador < quantNumeros);
+
+       System.out.println("Quantidade de Pares: " + quantPares);
+       System.out.println("Quantidade de Impares: " + quantImpares);
     }
 }

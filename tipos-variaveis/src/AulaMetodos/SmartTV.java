@@ -1,7 +1,5 @@
 package AulaMetodos;
 
-import javax.sound.midi.VoiceStatus;
-
 public class SmartTV {
     boolean ligada = false;
     int canal = 1;
